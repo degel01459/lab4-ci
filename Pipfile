@@ -3,5 +3,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[packages]
+[dev-packages]
+flake8 = "*"
+black = "*"
+isort = "*"
+mypy = "*"
 pytest="7.2.0"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.11"
